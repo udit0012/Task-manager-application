@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+}
+.navbar > .heading{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: rgb(97, 97, 97);
+}
+.navbar > .date{
+    color: rgb(97, 97, 97);
+    font-weight: 600;
+}
+@media screen and (max-width:1500px) {
+    
+}
+@media screen and (max-width:1000px) {
+   
+    
+}
+@media screen and (max-width:600px) {
+    .navbar{
+        padding: 1rem;
+    }
+    .navbar > .heading{
+        font-size: 1.3rem;
+    }
+    .navbar > .date{
+        font-size: .9rem;
+    }
+}

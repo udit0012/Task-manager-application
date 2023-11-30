@@ -1,0 +1,503 @@
+.home{
+    padding: 1rem 3rem;
+}
+.heading{
+    font-size: 1.8rem;
+    color: rgb(97, 97, 97);
+    font-weight: bold;
+}
+.btnGroups{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0;
+    align-items: center;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .25rem;
+    background-color: white;
+    color: rgb(128, 128, 128);
+    outline: none;
+    border: none;
+    padding: .75rem 1rem;
+    font-weight: 600;
+    font-size: .9rem;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .2) 1.95px 1.95px 2.6px;
+    transition: .3s;
+    cursor: pointer;
+}
+.headingBox  .btn{
+    display: none;
+}
+.btns  .active{
+    color: white;
+    background-color: rgb(195, 0, 255);
+}
+.addBtn{
+    color: white;
+    background-color: rgb(195, 0, 255);
+    transition: 0.2s;
+}
+.btns  .addBtn:hover{
+    transform: scale(1.05);
+}
+.btns  .btn:hover{
+    color: white;
+    background-color: rgb(195, 0, 255);
+}
+.tasks{
+    padding: 2rem .75rem ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    width: 100%;
+}
+.card{
+    background-color: rgb(195, 0, 255);
+    padding: 0 1rem;
+    color: white;
+    border-radius: 8px;
+}
+.addCard{
+    background-color: transparent;
+    border: 1px dashed rgb(160, 160, 160);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(160, 160, 160);
+    cursor: pointer;
+    transition: .2s;
+    height: 250px;
+}
+.addCard:hover{
+    background-color: rgb(200, 200, 200);
+}
+.animationCard{
+    animation: rotateCard 1s;
+}
+@keyframes rotateCard {
+    0%{
+        transform: rotateY(180deg);
+    }
+    100%{
+        transform: rotateY(0);
+    }
+}
+.animationCard1{
+    animation: rotateCard1 1s;
+}
+@keyframes rotateCard1 {
+    0%{
+        transform: rotateY(-180deg);
+    }
+    100%{
+        transform: rotateY(0);
+    }
+}
+.card  .taskTitle{
+    font-weight: 700;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    margin-bottom: .5rem;
+}
+.card  .taskDesc{
+    height: 100px;
+    font-size: .9rem;
+}
+.card  .taskDueDate{
+    font-size: .9rem;
+    font-weight: 500;
+    gap: .5rem;
+    display: flex;
+    align-items: center;
+}
+.card  .taskFunc{
+    padding: 1rem 0 ;
+    border-top: 1px dashed rgba(255, 255, 255, .5);
+    margin-top: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card  .confirmFunc{
+    padding: 1rem 0 ;
+    border-top: 1px dashed rgba(255, 255, 255, .5);
+    margin-top: .5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: .5rem;
+}
+.taskFunc  .taskCompleted{
+    padding: .5rem .75rem;
+    background-color: rgb(144, 255, 133);
+    border-radius: 20rem;
+    color: rgb(1, 165, 1);
+    font-weight: 500;
+    font-size: .9rem;
+}
+.taskStatus .material-symbols-outlined{
+    display: none;
+}
+.taskFunc  .taskIncomplete{
+    padding: .5rem .75rem;
+    background-color: rgb(241, 255, 51);
+    border-radius: 20rem;
+    color: rgb(158, 142, 0);
+    font-weight: 500;
+    font-size: .9rem;
+    cursor: pointer;
+    transition: .2s;
+    display: flex;
+    gap: .25rem;
+    align-items: center;
+}
+.confirmFunc  .noBtn{
+    padding: .5rem 1.25rem;
+    border-radius: 10rem;
+    background-color: white;
+    color: rgb(195, 0, 255);
+    transition: .1s;
+    cursor: pointer;
+    font-size: .9rem;
+}
+.confirmFunc  .noBtn:hover{
+    background-color: rgb(236, 236, 236);
+    color: rgb(195, 0, 255);
+}
+.confirmFunc  .yesBtn{
+    padding: .375rem 1.25rem;
+    border:2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: .9rem;
+    border-radius: 10rem;
+}
+.confirmFunc  .yesBtn:hover{
+    background-color: white;
+    color: rgb(195, 0, 255);
+}
+.taskFunc  .taskIncomplete:hover{
+    transform: scale(1.05);
+}
+.taskFunc  .functions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .9rem;
+    gap: .35rem;
+}
+.functions  .taskPriority{
+    background-color: white;
+    color: rgb(195, 0, 255);
+    font-weight: 500;
+    padding: .25rem .5rem;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, .2) 1px 1px 3px;
+}
+.material-symbols-outlined{
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: .1s;
+}
+.material-symbols-outlined:hover{
+    transform: scale(1.2);
+}
+.functions  .material-symbols-outlined{
+    filter: drop-shadow(rgba(0, 0, 0, .5) 2px 2px 3px)
+}
+
+.modal{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(6px);
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 5;
+    /* overflow: hidden; */
+}
+.displayModal{
+    display: flex;
+}
+.modalBox  .modalError{
+    color: red;
+    margin: 1rem 0;
+    text-align: center;
+    font-weight: 500;
+}
+.modalBox{
+    background: rgb(245, 212, 255);
+    padding: 2rem 3rem;
+    border-radius: .5rem;
+}
+.modalBox  .modalHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.modalHead  .heading{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+}
+.modalHead  .material-symbols-outlined{
+    color: rgb(102, 102, 102);
+}
+.modalContainer{
+    margin: 1rem 0;
+}
+.modalContainer  .modalForm{
+    
+}
+.inputBox{
+    margin: 1rem 0;
+    position: relative;
+}
+.inputBox  .formLabel{
+    display: block;
+    color: rgb(97, 97, 97);
+    font-weight: 500;
+    font-size: .9rem;
+}
+.inputBox  .formInput{
+    margin: .5rem 0;
+    padding: .5rem .5rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    width: 300px;
+    border-radius: .3rem;
+}
+.inputBox  .btn{
+    width: 100%;
+    margin-top: 1rem;
+}
+.inputBox  .select{
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.select  .material-symbols-outlined{
+    padding: 0 1rem;
+}
+.inputBox  .selectOptions{
+    background-color: white;
+    position: absolute;
+    /* display: none; */
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s;
+    z-index: 10;
+    border-radius: .5rem;
+}
+.selectOptions  .optionBox{
+    background-color: rgb(255, 255, 255);
+    padding: 1rem 0;
+}
+.optionBox  .options{
+    padding: .5rem 1rem;
+    cursor: pointer;
+    transition: .2s;
+}
+.optionBox  .options:hover{
+    background-color: rgb(195, 0, 255);
+}
+.inputBox  .display{
+    height: 140px;
+}
+.btns .inputBox{
+    margin: 0;
+}
+.inputBox  .sort{
+    padding: .75rem .5rem;
+    font-size: 1rem;
+    width: 150px;
+    color: rgb(102, 102, 102);
+    box-shadow: rgba(0, 0, 0, .2) 1.95px 1.95px 2.6px;
+}
+.sort  .selectOptions{
+    /* display: none; */
+    z-index: 2;
+}
+
+@media screen and (max-width:1500px) {
+    .tasks{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width:1000px) {
+    .home{
+        padding: 1rem 1.25rem;
+    }
+    .tasks{
+        grid-template-columns: 1fr 1fr;
+    }
+    .taskFunc  .taskIncomplete{
+        padding: .5rem .5rem;
+        font-size: .8rem;
+        
+    }
+    input[type=checkbox]{
+        transform: scale(.8);
+    }
+    .tasks{
+        padding: 1rem .25rem;
+    }
+    .btnGroups{
+        margin: .75rem 0;
+    }
+    .headingBox{
+        display: flex;
+        justify-content: space-between;
+    }
+    .headingBox  .btn{
+        display: flex;
+    }
+    .btnGroups .addBtn{
+        display: none;
+    }
+    .inputBox  .sort{
+        width: 120px;
+        padding: 0.5rem;
+    }
+    .sort .material-symbols-outlined{
+        padding: 0 .25rem;
+    }
+    .modal{
+        display: none;
+        justify-content: center;
+        align-items: start;
+        /* overflow: hidden; */
+    }
+    .displayModal{
+        display: flex;
+    }
+    .modalBox{
+        margin:6rem 0 ;
+        padding: 1.5rem 1rem;
+        border-radius: .5rem;
+    }
+    .inputBox  .formInput{
+        margin: .25rem 0;
+        width: 250px;
+    }
+    .inputBox  .btn{
+        margin-top: .25rem;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .tasks {
+        grid-template-columns: 1fr;
+        padding: 1.25rem 0rem ;
+        display: grid;
+        column-gap: .5rem;
+        row-gap: .5rem;
+    }
+    .btnGroups{
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    .btn{
+        padding: .5rem 1rem;
+    }
+    .headingBox  .heading{
+        display: flex;
+        font-size: 1.4rem;
+        justify-content: space-between;
+    }
+    .headingBox  .btn{
+        display: none;
+    }
+    .taskStatus .text{
+        display: none;
+    }
+    .taskStatus .material-symbols-outlined{
+        display: block;
+        font-size: .9rem;
+    }
+    .taskPriority .text{
+        display: none;
+    }
+    .taskFunc  .functions{
+        gap: .1rem;
+    }
+    .card{
+        padding: .75rem .75rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .card .taskDetails{
+        margin-right: 2rem;
+    }
+    .card .taskTitle{
+        font-weight: 700;
+        font-size: .9rem;
+        padding: .25rem 0;
+        padding-bottom: .5rem;
+        border-bottom: none;
+        margin-bottom: 0;
+        width: 140px;
+        word-wrap: break-word;
+    }
+    .card .taskDesc{
+        word-wrap: break-word;
+        height: 60px;
+        width: 140px;
+        overflow: hidden;
+    }
+    .card .taskFunc{
+        border: none;
+        gap: .25rem;
+    }
+    .taskFunc .taskStatus{
+        padding: .4rem;
+    }
+    .functions .material-symbols-outlined{
+        font-size: 1.6rem;
+    }
+    .addCard{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .confirmCard{
+        flex-direction: column;
+    }
+    .confirmCard .taskDetails{
+        margin-right: 0;
+    }
+    .confirmCard .taskDesc{
+        width: 200px;
+        height: 25px;
+    }
+    .confirmCard .taskTitle{
+        width: 200px;
+    }
+    .confirmCard .taskDueDate{
+        display: none;
+    }
+    .card .confirmFunc{
+        padding: .5rem 0;
+    }
+}
