@@ -31,6 +31,7 @@ const AddTaskModal = ({ tasks, setDisplayModal, setTasks }) => {
         setTasks([...tasks, { ...task, id: uuid4() }]);
         localStorage.setItem("tasks", JSON.stringify(newTasks));
         setDisplayModal(false)
+        setTask({ title: "", status: "Incomplete", description: "", date: "", priority: "Select options" })
     }
     return (
         <div className='modalBox addTaskModal'>

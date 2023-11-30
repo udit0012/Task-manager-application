@@ -1,70 +1,88 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Task Manager
 
-## Available Scripts
+Task Manager is a daily task management application which is created using **React.js** for user interaction and all the tasks stored at the localstorage of the browser
 
-In the project directory, you can run:
+## Demo
 
-### `npm start`
+   Live : 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Application Demo](https://pvt-task-manager.netlify.app/)
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Client:** React JS
 
-### `npm test`
+**Server:** Node JS, Express JS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Database:** Mongo Database
 
-### `npm run build`
+Browser <---> **Socket.io** <---> Node JS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Run Locally
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Clone the project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+  git clone git@github.com:udit0012/LetsChat-App.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Go to the project directory
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+  cd LetsChatapp
+```
 
-## Learn More
+Install dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+  npm install
+```
+```bash
+  cd /frontend 
+  npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Start the Server
 
-### Code Splitting
+```bash
+  npm run start
+```
+Start the Client
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+  //open new terminal
+  cd /frontend
+  npm start
+```
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Homepage
+![Home Page Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/HomePage.png)
 
-### Advanced Configuration
+### Login
+![Login Page Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/Login.png)
+### Register
+![Register Page Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/Register.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### One to One Chat
+![Chat Page Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/ChatPage.png)
+### Add and remove group member
+![Group Details Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/GroupDetails.png)
+### Real time chatting with Typing Effect
+![Typing Indicator Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/TypingEffect.png)
+### Mobile Friendly
+![Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/MChat.png)
+![Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/MChatBox.png)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Made By
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[@UditGoyal (me_gtonochillz)](https://github.com/udit0012)
+
