@@ -3,20 +3,14 @@
 
 Task Manager is a daily task management application which is created using **React.js** for user interaction and all the tasks stored at the localstorage of the browser
 
-## Demo
+## Demo 
 
-   Live : 
-
-[Application Demo](https://pvt-task-manager.netlify.app/)
+[**Click here for live demo of application**](https://pvt-task-manager.netlify.app/)
 ## Tech Stack
 
 **Client:** React JS
 
-**Server:** Node JS, Express JS
-
-**Database:** Mongo Database
-
-Browser <---> **Socket.io** <---> Node JS
+**Database:** Browsesr Localstorage
 
 
 
@@ -26,13 +20,13 @@ Browser <---> **Socket.io** <---> Node JS
 Clone the project
 
 ```bash
-  git clone git@github.com:udit0012/LetsChat-App.git
+  git clone https://github.com/udit0012/Task-manager-application.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd LetsChatapp
+  cd Task-manager-application
 ```
 
 Install dependencies
@@ -40,49 +34,38 @@ Install dependencies
 ```bash
   npm install
 ```
-```bash
-  cd /frontend 
-  npm install
-```
 
-Start the Server
+Run application
 
 ```bash
   npm run start
 ```
-Start the Client
-
-```bash
-  //open new terminal
-  cd /frontend
-  npm start
-```
-
+Application will be running on http://localhost:3000
 
 
 ## Features
+* Add, delete edit are the basic operations for each task.
+* Filter the tasks based on their status i.e. Completed or Incomplete
 
-### Homepage
-![Home Page Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/HomePage.png)
+* Sort the tasks on basis of the priority of each task from Low to High or High to Low.
 
-### Login
-![Login Page Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/Login.png)
-### Register
-![Register Page Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/Register.png)
+### Home Page
+![Home Page](https://github.com/udit0012/Task-manager-application/blob/main/Screenshots/TaskHomePage.png)
 
-### One to One Chat
-![Chat Page Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/ChatPage.png)
-### Add and remove group member
-![Group Details Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/GroupDetails.png)
-### Real time chatting with Typing Effect
-![Typing Indicator Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/TypingEffect.png)
-### Mobile Friendly
-![Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/MChat.png)
-![Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/MChatBox.png)
+###  Filtered Tasks
+![Filtered Completed Tasks](https://github.com/udit0012/Task-manager-application/blob/main/Screenshots/CompletedTasksOnly.png)
+
+### Sorting Tasks
+![Sorted Tasks fro High to Low](https://github.com/udit0012/Task-manager-application/blob/main/Screenshots/SortedTasks.png)
+
+### Add new Task
+![Add New Task Modal](https://github.com/udit0012/Task-manager-application/blob/main/Screenshots/AddTaskModal.png)
+### Card having delete and edit buttons
+![Card](https://github.com/udit0012/Task-manager-application/blob/main/Screenshots/TaskCard.png)
+
 
 
 
 ## Made By
-
-[@UditGoyal (me_gtonochillz)](https://github.com/udit0012)
+[@UditGoyal](https://github.com/udit0012)
 
