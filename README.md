@@ -65,7 +65,7 @@ Application will be running on http://localhost:3000
 ![Card](https://github.com/udit0012/Task-manager-application/blob/main/Screenshots/TaskCard.png)
 
 ### Phone Device View
-![Responsive](https://github.com/udit0012/Task-manager-application/blob/main/Screenshots/ResponsiveView.jpeg)
+![Responsive](https://github.com/udit0012/Task-manager-application/blob/main/Screenshots/ResponsiveView.jpeg | width=100)
 
 
 
