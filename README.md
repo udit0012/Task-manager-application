@@ -60,8 +60,12 @@ Application will be running on http://localhost:3000
 
 ### Add new Task
 ![Add New Task Modal](https://github.com/udit0012/Task-manager-application/blob/main/Screenshots/AddTaskModal.png)
+
 ### Card having delete and edit buttons
 ![Card](https://github.com/udit0012/Task-manager-application/blob/main/Screenshots/TaskCard.png)
+
+### Phone Device View
+![Responsive](https://github.com/udit0012/Task-manager-application/blob/main/Screenshots/ResponsiveView.jpeg)
 
 
 
