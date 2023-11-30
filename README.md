@@ -59,7 +59,7 @@ Application will be running on http://localhost:3000
 ![Sorted Tasks fro High to Low](https://github.com/udit0012/Task-manager-application/blob/main/Screenshots/SortedTasks.png)
 
 ### Add new Task
-![Add New Task Modal](https://github.com/udit0012/Task-manager-application/blob/main/Screenshots/AddTaskModal.png)
+<img src="https://github.com/udit0012/Task-manager-application/blob/main/Screenshots/AddTaskModal.png width="200" >
 
 ### Card having delete and edit buttons
 ![Card](https://github.com/udit0012/Task-manager-application/blob/main/Screenshots/TaskCard.png)
